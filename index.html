@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProKebab</title>
+  <link rel="stylesheet" type="text/css" href="styles/font.css">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link rel="stylesheet" href="styles/media.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header__block">
+        <a href="index.html" class="logo">
+          <img src="image/logo.svg" alt="Логотип" title="Логотип">
+        </a>
+        <nav class="menu">
+          <button class="menu__btn-phone">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="menu__items">
+            <li><a class="menu__item" href="stock.html" title="Акции">Акции</a></li>
+            <li><a class="menu__item" href="catalog.html" title="Меню">Меню</a></li>
+            <li><a class="menu__item" href="delivery.html" title="Доставка">Доставка</a></li>
+            <li><a class="menu__item" href="contacts.html" title="Контакты">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="phone__items">
+          <img class="phone__img" src="image/phone.svg" alt="Иконка телефона" title="Иконка телефона">
+          <a class="phone__item"  href="tel:+78312668976" title="Телефонный номер для связи">+7 (831) 266-89-76</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="banner">
+      <div class="container">
+        <div class="banner__block">
+          <div class="banner__block-text">
+            <h1 class="banner__title">ЗАГОЛОВОК <br>В ДВЕ СТРОКИ</h1>
+            <p class="banner__text">Подзаголовок описывает, какая вкусная шаурма <br>Лучше в две строки</p>
+            <div class="banner__btn">
+              <a class="banner__btn-item" href="#" title="Заказать доставку">ЗАКАЗАТЬ ДОСТАВКУ</a>
+            </div>
+          </div>
+          <div class="banner__image">
+            <img class="banner__shawarma" src="image/banner-shawarma.png" alt="Фото шаурмы" title="Фото шаурмы">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="stock">
+      <div class="container">
+        <div class="stock__block">
+          <a href="#" title="просмотреть Акции">
+            <div class="stock__card">
+              <div class="card__text">
+                <p class="stock__card-text natural__text">Natural!!</p>
+                <h3 class="stock__card-title">СУПЕР <br>АКЦИЯ 1</h3>
+              </div>
+              <img class="natural__img" src="image/natural__img.png" alt="Первая Акция" title="Первая Акция">
+            </div> 
+          </a>
+          <a href="#" title="просмотреть Акции">
+            <div class="stock__card card__offer">
+              <div class="card__text">
+                <p class="stock__card-text offer__text">Offer!!</p>
+                <h3 class="stock__card-title">СУПЕР <br>АКЦИЯ 2</h3>
+              </div>
+              <img class="offer__img" src="image/offer__img.png" alt="Вторая Акция" title="Вторая Акция">
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="menu">
+      <div class="container">
+        <div class="menu__block">
+          <h2 class="menu__block-title block__title">ВСЁ НУЖНОЕ РЯДОМ</h2>
+          <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'all')">Всё</button>
+            <button class="tablinks" onclick="openCity(event, 'vegan')">Веган</button>
+            <button class="tablinks" onclick="openCity(event, 'beef')">Говядина</button>
+            <button class="tablinks" onclick="openCity(event, 'chicken')">Курица</button>
+          </div>
+          <div id="all" class="tabcontent">
+            <div class="catalog__cards">
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Веган</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы без мяса">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Веган</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы без мяса">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Веган</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы без мяса">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Веган</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы без мяса">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Курица</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы с курицей">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Говядина</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы с говядиной">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Говядина</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы с говядиной">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Курица</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы с курицей">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div id="vegan" class="tabcontent">
+            <div class="catalog__cards">
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Веган</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы без мяса">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Веган</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы без мяса">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Веган</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы без мяса">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Веган</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы без мяса">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div id="beef" class="tabcontent">
+            <div class="catalog__cards">
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Говядина</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы с говядиной">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Говядина</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы с говядиной">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Говядина</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы с говядиной">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Говядина</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы с говядиной">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Говядина</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы с говядиной">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div id="chicken" class="tabcontent">
+            <div class="catalog__cards">
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Курица</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы с курицей">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Курица</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы с курицей">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+              <a href="card.html" title="Переход к заказу">
+                <div class="catalog__card">
+                  <span class="card__minname">Курица</span>
+                  <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы с курицей">
+                  <p class="card__title">Шаурма с курицей</p>
+                  <div class="card__price">
+                    <p class="old__price">300&#8381;</p>
+                    <p class="price">150&#8381;</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="menu__btn">
+            <a class="menu__btn-link" href="#" title="Смотреть ещё">СМОТРЕТЬ ЕЩЁ
+              <span class="menu__btn-icon">
+                <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.47641 1.12891L7.87095 4.19342L4.47641 7.25794M7.39949 4.19342H0.516113" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>  
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lunch">
+      <div class="container">
+        <div class="lunch__block">
+          <div class="lunch__block-header">
+            <h2 class="block__title">БИЗНЕС ЛАНЧ</h2>
+            <a class="menu__btn-link lunch__btn" href="lunch.html" title="Смотреть ещё">СМОТРЕТЬ ЕЩЁ
+              <span class="menu__btn-icon">
+                <svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.47641 1.12891L7.87095 4.19342L4.47641 7.25794M7.39949 4.19342H0.516113" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>  
+              </span>
+            </a>
+          </div>
+          <div class="lunch__menu">
+            <a href="card.html" title="Переход к заказу">
+              <div class="lunch__card">
+                <span class="card__minname">Курица</span>
+                <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы с курицей">
+                <p class="card__title lunch__card-title">Шаурма с курицей</p>
+                <div class="card__price">
+                  <p class="old__price">300&#8381;</p>
+                  <p class="price">150&#8381;</p>
+                </div>
+              </div>
+            </a>
+            <a href="card.html" title="Переход к заказу">
+              <div class="lunch__card">
+                <span class="card__minname">Курица</span>
+                <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы с курицей">
+                <p class="card__title lunch__card-title">Шаурма с курицей</p>
+                <div class="card__price">
+                  <p class="old__price">300&#8381;</p>
+                  <p class="price">150&#8381;</p>
+                </div>
+              </div>
+            </a>
+            <a href="card.html" title="Переход к заказу">
+              <div class="lunch__card">
+                <span class="card__minname">Курица</span>
+                <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы с курицей">
+                <p class="card__title lunch__card-title">Шаурма с курицей</p>
+                <div class="card__price">
+                  <p class="old__price">300&#8381;</p>
+                  <p class="price">150&#8381;</p>
+                </div>
+              </div>
+            </a>
+            <a href="card.html" title="Переход к заказу">
+              <div class="lunch__card">
+                <span class="card__minname">Курица</span>
+                <img class="card__img" src="image/pngwing.png" alt="фото шаурмы" title="фото шаурмы с курицей">
+                <p class="card__title lunch__card-title">Шаурма с курицей</p>
+                <div class="card__price">
+                  <p class="old__price">300&#8381;</p>
+                  <p class="price">150&#8381;</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faq">
+      <div class="container">
+        <div class="faq__block">
+          <h2 class="block__title">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h2>
+          <div class="faq__items">
+            <details>
+              <summary>Как заказать?</summary>
+              <div>
+                Все очень просто
+              </div>
+            </details>
+            <details>
+              <summary>Как заказать?</summary>
+              <div>
+                Все очень просто
+              </div>
+            </details>
+            <details>
+              <summary>Как заказать?</summary>
+              <div>
+                Все очень просто
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer__block">
+        <img src="image/logo-footer.svg" alt="Логотип" title="Логотип">
+        <div class="footer__menu">
+          <h4 class="footer__title">Навигация</h4>
+          <nav>            
+            <ul class="footer__menu-items">
+              <li><a class="footer__menu-link" href="stock.html" title="Акции">Акции</a></li>
+              <li><a class="footer__menu-link" href="catalog.html" title="Меню">Меню</a></li>
+              <li><a class="footer__menu-link" href="delivery.html" title="Доставка">Доставка</a></li>
+              <li><a class="footer__menu-link" href="contacts.html" title="Контакты">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <h4 class="footer__title">Адреса и контакты</h4>
+          <div class="contacts__info">
+            <div class="contacts__info-link">
+                <p>Адрес</p>
+                <a href="#" title="Адрес">г. Москва, ул. Красная площадь, д. 6, <br>офис 666</a>
+            </div>
+            <div class="contacts__info-link">
+              <p>Единый телефон</p>
+              <a href="tel:88003004050" title="Единый телефон">8 800 300 40 50</a>
+            </div>
+            <div class="contacts__info-link">
+              <p >Доставка</p>
+              <a href="tel:+7(831)266-89-76" title="Доставка">+7 (831) 266-89-76</a>
+            </div>
+          </div>
+        </div>
+        <div class="support">
+          <h4>Есть вопросы <br>или предложения?</h4>
+          <div class="support__btn">
+            <a href="index.html" title="напиши нам" target="_blank">НАПИШИТЕ НАМ</a>
+          </div>
+          <p class="support__text">Подписывайтесь на нас в соц. сетях</p>
+          <div class="footer__icon">
+            <a href="https://dzen.ru/?utm_referrer=www.google.com" target="_blank">
+              <img src="image/YandexZen.png" alt="YandexZen" title="YandexZen">
+            </a>
+            <a href="https://vk.com/" target="_blank">
+              <img src="image/vk.png" alt="VK" title="VK">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+              <img src="image/YouTube.png" alt="YouTube" title="YouTube">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
